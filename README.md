@@ -4,5 +4,5 @@
 ### CodeClimate status:
 [![Maintainability](https://api.codeclimate.com/v1/badges/a99a88d28ad37a79dbf6/maintainability)](https://codeclimate.com/github/aleksandrchusovitin/frontend-project-lvl1/maintainability)
 
-### Eslint linter status:
+### Eslint status:
 [![eslint-check](https://github.com/aleksandrchusovitin/frontend-project-lvl1/actions/workflows/lint.yml/badge.svg)](https://github.com/aleksandrchusovitin/frontend-project-lvl1/actions/workflows/lint.yml)
