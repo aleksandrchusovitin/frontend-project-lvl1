@@ -1,4 +1,5 @@
 #!/usr/bin/env node
 import playGameEven from '../src/game-even.js';
 
-playGameEven('Alex');
+console.log('Welcome to the Brain Games!');
+playGameEven();
