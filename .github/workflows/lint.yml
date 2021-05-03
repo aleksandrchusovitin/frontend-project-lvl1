@@ -1,4 +1,4 @@
-# Check linter
+# Check ESLint
 
 name: eslint-check
 
