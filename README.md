@@ -7,4 +7,6 @@
 ### Eslint status:
 [![eslint-check](https://github.com/aleksandrchusovitin/frontend-project-lvl1/actions/workflows/lint.yml/badge.svg)](https://github.com/aleksandrchusovitin/frontend-project-lvl1/actions/workflows/lint.yml)
 
-[asciinema: How i can play ?](https://asciinema.org/a/zbFx2a3rKbHoVSJAQtg0ut1L3)
+[asciinema: How i can play to brain-even game?](https://asciinema.org/a/zbFx2a3rKbHoVSJAQtg0ut1L3)
+
+[asciinema: Gameplay brain-calc](https://asciinema.org/a/niGejq55ElTig4LA48PcSxKaG)
