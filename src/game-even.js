@@ -26,6 +26,7 @@ const playGameEven = () => {
       console.log(`Let's try again, ${userName}!`);
       return;
     }
+    console.log('Correct!');
   }
 
   console.log(`Congratulations, ${userName}`);
