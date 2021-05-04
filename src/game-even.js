@@ -11,8 +11,9 @@ const playGameEven = () => {
 
   const minValue = 1;
   const maxValue = 100;
+  const countQuestions = 3;
 
-  for (let i = 0; i < 3; i += 1) {
+  for (let i = 0; i < countQuestions; i += 1) {
     const questionNumber = Math.floor(minValue + Math.random() * (maxValue + 1 - minValue));
     const correctAnswer = isEven(questionNumber) ? 'yes' : 'no';
     console.log(`Question: ${questionNumber}`);
