@@ -38,7 +38,7 @@ const playGameCalc = () => {
     correctAnswers.push(correctAnswer);
   }
 
-  startGameEngine(rulesGame, questions, correctAnswers);
+  startGameEngine(rulesGame, countQuestions, questions, correctAnswers);
 };
 
 export default playGameCalc;
