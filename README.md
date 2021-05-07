@@ -10,3 +10,5 @@
 [asciinema: How i can play to brain-even game?](https://asciinema.org/a/vNN3Ipi9zMnIieWPV9Kn945Ie)
 
 [asciinema: Gameplay brain-calc](https://asciinema.org/a/niGejq55ElTig4LA48PcSxKaG)
+
+[asciinema: Gameplay brain-gcd](https://asciinema.org/a/KkmSQwcNz4B5XszacF5baswae)
