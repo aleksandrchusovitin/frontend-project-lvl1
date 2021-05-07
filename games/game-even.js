@@ -6,7 +6,7 @@ const playGameEven = () => {
   const rulesGame = 'Answer "yes" if the number is even, otherwise answer "no"';
 
   const getPairQuestionCorrectAnswer = () => {
-    const question = getRandomNumber();
+    const question = getRandomNumber(1, 100);
     const correctAnswer = isEven(question) ? 'yes' : 'no';
 
     return cons(question, correctAnswer);
