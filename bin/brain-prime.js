@@ -1,3 +1,4 @@
 #!/usr/bin/env node
+import playGamePrime from '../games/game-prime.js';
 
-console.log('Hello from brain-prime');
+playGamePrime();
