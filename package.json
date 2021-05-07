@@ -26,7 +26,6 @@
   },
   "homepage": "https://github.com/aleksandrchusovitin/frontend-project-lvl1#readme",
   "dependencies": {
-    "@hexlet/pairs": "^1.1.1",
     "readline-sync": "^1.4.10"
   },
   "devDependencies": {
