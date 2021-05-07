@@ -1,4 +1,5 @@
 import { cons } from '@hexlet/pairs';
+import { getRandomNumber } from '../src/functions.js';
 import startGameEngine from '../src/index.js';
 
 const playGameCalc = () => {
@@ -6,12 +7,11 @@ const playGameCalc = () => {
 
   const getPairQuestionCorrectAnswer = () => {
     const operators = ['+', '-', '*'];
-    const minValue = 1;
-    const maxValue = 100;
 
-    const operand1 = Math.floor(minValue + Math.random() * (maxValue + 1 - minValue));
-    const operand2 = Math.floor(minValue + Math.random() * (maxValue + 1 - minValue));
-    const operator = operators[Math.floor(Math.random() * operators.length)];
+    const operand1 = getRandomNumber();
+    const operand2 = getRandomNumber();
+    const randomIndexArr = Math.floor(Math.random() * operators.length);
+    const operator = operators[randomIndexArr];
 
     const question = `${operand1} ${operator} ${operand2}`;
 
