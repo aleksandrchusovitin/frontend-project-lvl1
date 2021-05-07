@@ -1,3 +1,4 @@
 #!/usr/bin/env node
+import playGameGcd from '../games/game-gcd.js';
 
-console.log('Hello from brain-gcd');
+playGameGcd();
