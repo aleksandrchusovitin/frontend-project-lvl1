@@ -1,4 +1,3 @@
-import { cons } from '@hexlet/pairs';
 import { getRandomNumber } from '../src/functions.js';
 import startGameEngine from '../src/index.js';
 
@@ -26,7 +25,7 @@ const playGameProgression = () => {
 
     const question = progressionArr.join(' ');
 
-    return cons(question, correctAnswer);
+    return [question, correctAnswer];
   };
   startGameEngine(rulesGame, getPairQuestionCorrectAnswer);
 };

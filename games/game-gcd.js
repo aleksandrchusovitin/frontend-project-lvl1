@@ -1,4 +1,3 @@
-import { cons } from '@hexlet/pairs';
 import { getRandomNumber, findGcd } from '../src/functions.js';
 import startGameEngine from '../src/index.js';
 
@@ -12,7 +11,7 @@ const playGameGcd = () => {
 
     const correctAnswer = findGcd(number1, number2).toString();
 
-    return cons(question, correctAnswer);
+    return [question, correctAnswer];
   };
 
   startGameEngine(rulesGame, getPairQuestionCorrectAnswer);

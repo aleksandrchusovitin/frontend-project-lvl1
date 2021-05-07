@@ -1,4 +1,3 @@
-import { cons } from '@hexlet/pairs';
 import { getRandomNumber, isEven } from '../src/functions.js';
 import startGameEngine from '../src/index.js';
 
@@ -9,7 +8,7 @@ const playGameEven = () => {
     const question = getRandomNumber(1, 100);
     const correctAnswer = isEven(question) ? 'yes' : 'no';
 
-    return cons(question, correctAnswer);
+    return [question, correctAnswer];
   };
 
   startGameEngine(rulesGame, getPairQuestionCorrectAnswer);

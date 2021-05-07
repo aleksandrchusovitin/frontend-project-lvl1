@@ -1,4 +1,3 @@
-import { cons } from '@hexlet/pairs';
 import { getRandomIndexArr, getRandomNumber } from '../src/functions.js';
 import startGameEngine from '../src/index.js';
 
@@ -31,7 +30,7 @@ const playGameCalc = () => {
     }
     correctAnswer = correctAnswer.toString();
 
-    return cons(question, correctAnswer);
+    return [question, correctAnswer];
   };
 
   startGameEngine(rulesGame, getPairQuestionCorrectAnswer);
