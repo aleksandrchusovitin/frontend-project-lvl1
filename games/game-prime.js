@@ -1,12 +1,13 @@
 import { cons } from '@hexlet/pairs';
+import { getRandomNumber, isPrime } from '../src/functions.js';
 import startGameEngine from '../src/index.js';
 
 const playGamePrime = () => {
-  const rulesGame = '';
+  const rulesGame = 'Answer "yes" if given number is prime. Otherwise answer "no".';
 
   const getPairQuestionCorrectAnswer = () => {
-    const question = 0;
-    const correctAnswer = 0;
+    const question = getRandomNumber(2, 100);
+    const correctAnswer = isPrime(question) ? 'yes' : 'no';
 
     return cons(question, correctAnswer);
   };
