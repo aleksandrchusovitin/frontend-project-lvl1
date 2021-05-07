@@ -1,17 +1,14 @@
+import { cons } from '@hexlet/pairs';
 import startGameEngine from '../src/index.js';
 
 const playGameCalc = () => {
   const rulesGame = 'What is the result of the expression?';
 
-  const operators = ['+', '-', '*'];
-  const minValue = 1;
-  const maxValue = 100;
-  const countQuestions = 3;
+  const getPairQuestionCorrectAnswer = () => {
+    const operators = ['+', '-', '*'];
+    const minValue = 1;
+    const maxValue = 100;
 
-  const questions = [];
-  const correctAnswers = [];
-
-  for (let i = 0; i < countQuestions; i += 1) {
     const operand1 = Math.floor(minValue + Math.random() * (maxValue + 1 - minValue));
     const operand2 = Math.floor(minValue + Math.random() * (maxValue + 1 - minValue));
     const operator = operators[Math.floor(Math.random() * operators.length)];
@@ -34,11 +31,10 @@ const playGameCalc = () => {
     }
     correctAnswer = correctAnswer.toString();
 
-    questions.push(question);
-    correctAnswers.push(correctAnswer);
-  }
+    return cons(question, correctAnswer);
+  };
 
-  startGameEngine(rulesGame, countQuestions, questions, correctAnswers);
+  startGameEngine(rulesGame, getPairQuestionCorrectAnswer);
 };
 
 export default playGameCalc;
