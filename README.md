@@ -14,3 +14,5 @@
 [asciinema: Gameplay brain-gcd](https://asciinema.org/a/KkmSQwcNz4B5XszacF5baswae)
 
 [asciinema: Gameplay brain-progression](https://asciinema.org/a/cmUN3EtjofvH2kbwoadrcdRwu)
+
+[asciinema: Gameplay brain-prime](https://asciinema.org/a/XxNyZbAMeUYosIzg5hlu5vyzQ)
