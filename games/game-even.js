@@ -6,8 +6,10 @@ const playGameEven = () => {
 
   const getPairQuestionCorrectAnswer = () => {
     const isEven = (number) => number % 2 === 0;
+
     const minValue = 1;
     const maxValue = 100;
+
     const question = Math.floor(minValue + Math.random() * (maxValue + 1 - minValue));
     const correctAnswer = isEven(question) ? 'yes' : 'no';
 

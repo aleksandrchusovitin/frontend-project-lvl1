@@ -14,6 +14,7 @@ const startGameEngine = (rulesGame, getPairQuestionCorrectAnswer) => {
     const PairQuestionCorrectAnswer = getPairQuestionCorrectAnswer();
     const question = car(PairQuestionCorrectAnswer);
     const correctAnswer = cdr(PairQuestionCorrectAnswer);
+
     console.log(`Question: ${question}`);
 
     const userAnswer = readlineSync.question('Your answer: ');
