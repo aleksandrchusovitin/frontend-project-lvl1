@@ -7,8 +7,10 @@
 ### Eslint status:
 [![eslint-check](https://github.com/aleksandrchusovitin/frontend-project-lvl1/actions/workflows/lint.yml/badge.svg)](https://github.com/aleksandrchusovitin/frontend-project-lvl1/actions/workflows/lint.yml)
 
-[asciinema: How i can play to brain-even game?](https://asciinema.org/a/vNN3Ipi9zMnIieWPV9Kn945Ie)
+[asciinema: How i can play to brain games?](https://asciinema.org/a/vNN3Ipi9zMnIieWPV9Kn945Ie)
 
 [asciinema: Gameplay brain-calc](https://asciinema.org/a/niGejq55ElTig4LA48PcSxKaG)
 
 [asciinema: Gameplay brain-gcd](https://asciinema.org/a/KkmSQwcNz4B5XszacF5baswae)
+
+[asciinema: Gameplay brain-progression](https://asciinema.org/a/cmUN3EtjofvH2kbwoadrcdRwu)
