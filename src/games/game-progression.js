@@ -3,26 +3,36 @@ import startGameEngine from '../index.js';
 
 const rulesGame = 'What number is missing in the progression?';
 
+const generateProgression = (length, startNumber, step) => {
+  let nextNumber = startNumber;
+  const progression = [nextNumber];
+
+  for (let i = 0; i < length; i += 1) {
+    nextNumber += step;
+    progression.push(nextNumber);
+  }
+
+  return progression;
+};
+
+const hideNumberInProgression = (progression, index) => {
+  const hiddenProgression = [...progression];
+  hiddenProgression[index] = '..';
+
+  return hiddenProgression;
+};
+
 const getPairQuestionCorrectAnswer = () => {
   const lengthProgression = getRandomNumber(5, 15);
   const indexHiddenNumber = getRandomNumber(0, lengthProgression - 1);
-  let nextNumberProgression = getRandomNumber(2, 50);
+  const startNumber = getRandomNumber(2, 50);
   const stepProgression = getRandomNumber(2, 8);
-  const progressionArr = [nextNumberProgression];
 
-  let correctAnswer;
+  const progression = generateProgression(lengthProgression, startNumber, stepProgression);
+  const correctAnswer = progression[indexHiddenNumber].toString();
+  const hiddenProgression = hideNumberInProgression(progression, indexHiddenNumber);
 
-  for (let i = 0; i < lengthProgression; i += 1) {
-    nextNumberProgression += stepProgression;
-    if (i === indexHiddenNumber) {
-      progressionArr.push('..');
-      correctAnswer = nextNumberProgression.toString();
-    } else {
-      progressionArr.push(nextNumberProgression);
-    }
-  }
-
-  const question = progressionArr.join(' ');
+  const question = hiddenProgression.join(' ');
 
   return [question, correctAnswer];
 };
