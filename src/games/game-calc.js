@@ -1,5 +1,5 @@
-import { getRandomIndexArr, getRandomNumber } from '../src/functions.js';
-import startGameEngine from '../src/index.js';
+import { getRandomIndexArr, getRandomNumber } from '../functions.js';
+import startGameEngine from '../index.js';
 
 const playGameCalc = () => {
   const rulesGame = 'What is the result of the expression?';
