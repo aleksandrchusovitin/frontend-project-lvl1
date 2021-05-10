@@ -7,17 +7,46 @@
 ### Eslint status:
 [![eslint-check](https://github.com/aleksandrchusovitin/frontend-project-lvl1/actions/workflows/lint.yml/badge.svg)](https://github.com/aleksandrchusovitin/frontend-project-lvl1/actions/workflows/lint.yml)
 
+## Install
+```sh
+# clone the repository
+git clone https://github.com/aleksandrchusovitin/frontend-project-lvl1.git
+
+# go to the folder with the repository
+cd frontend-project-lvl1
+
+# install dependencies
+make install
+
+# install the package
+npm link
+```
+
+## Usage example
+```sh
+# choose from five games
+brain-calc
+
+brain-even
+
+brain-gcd
+
+brain-prime
+
+brain-progression
+```
+
+### How i can play to brain games?
 [![asciicast](https://asciinema.org/a/vNN3Ipi9zMnIieWPV9Kn945Ie.svg)](https://asciinema.org/a/vNN3Ipi9zMnIieWPV9Kn945Ie)
-[asciinema: How i can play to brain games?](https://asciinema.org/a/vNN3Ipi9zMnIieWPV9Kn945Ie)
 
+### Gameplay brain-calc
 [![asciicast](https://asciinema.org/a/niGejq55ElTig4LA48PcSxKaG.svg)](https://asciinema.org/a/niGejq55ElTig4LA48PcSxKaG)
-[asciinema: Gameplay brain-calc](https://asciinema.org/a/niGejq55ElTig4LA48PcSxKaG)
 
+### Gameplay brain-gcd
 [![asciicast](https://asciinema.org/a/KkmSQwcNz4B5XszacF5baswae.svg)](https://asciinema.org/a/KkmSQwcNz4B5XszacF5baswae)
-[asciinema: Gameplay brain-gcd](https://asciinema.org/a/KkmSQwcNz4B5XszacF5baswae)
 
+### Gameplay brain-progression
 [![asciicast](https://asciinema.org/a/cmUN3EtjofvH2kbwoadrcdRwu.svg)](https://asciinema.org/a/cmUN3EtjofvH2kbwoadrcdRwu)
-[asciinema: Gameplay brain-progression](https://asciinema.org/a/cmUN3EtjofvH2kbwoadrcdRwu)
 
+### Gameplay brain-prime
 [![asciicast](https://asciinema.org/a/XxNyZbAMeUYosIzg5hlu5vyzQ.svg)](https://asciinema.org/a/XxNyZbAMeUYosIzg5hlu5vyzQ)
-[asciinema: Gameplay brain-prime](https://asciinema.org/a/XxNyZbAMeUYosIzg5hlu5vyzQ)
