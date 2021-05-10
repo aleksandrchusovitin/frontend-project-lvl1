@@ -1,9 +1,10 @@
-import { getRandomIndexArr, getRandomNumber } from '../functions.js';
+import getRandomNumber from '../functions.js';
 import startGameEngine from '../index.js';
 
 const rulesGame = 'What is the result of the expression?';
 
 const getPairQuestionCorrectAnswer = () => {
+  const getRandomIndexArr = (arr) => Math.floor(Math.random() * arr.length);
   const operators = ['+', '-', '*'];
 
   const operand1 = getRandomNumber(1, 100);
