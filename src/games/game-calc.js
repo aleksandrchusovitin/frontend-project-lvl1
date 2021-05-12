@@ -19,7 +19,7 @@ const getCorrectAnswer = (operand1, operator, operand2) => {
     default:
       break;
   }
-  return correctAnswer.toString();
+  return correctAnswer;
 };
 
 const getPairQuestionCorrectAnswer = () => {
@@ -31,7 +31,7 @@ const getPairQuestionCorrectAnswer = () => {
   const operator = operators[randomIndexArr];
 
   const question = `${operand1} ${operator} ${operand2}`;
-  const correctAnswer = getCorrectAnswer(operand1, operator, operand2);
+  const correctAnswer = getCorrectAnswer(operand1, operator, operand2).toString();
 
   return [question, correctAnswer];
 };
