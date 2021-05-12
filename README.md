@@ -19,7 +19,7 @@ cd frontend-project-lvl1
 make install
 
 # install the package
-npm link
+make link
 ```
 
 ## Usage example

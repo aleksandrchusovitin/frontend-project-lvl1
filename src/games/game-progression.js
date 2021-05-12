@@ -29,10 +29,10 @@ const getPairQuestionCorrectAnswer = () => {
   const stepProgression = getRandomNumber(2, 8);
 
   const progression = generateProgression(lengthProgression, startNumber, stepProgression);
-  const correctAnswer = progression[indexHiddenNumber].toString();
   const hiddenProgression = hideNumberInProgression(progression, indexHiddenNumber);
 
   const question = hiddenProgression.join(' ');
+  const correctAnswer = progression[indexHiddenNumber].toString();
 
   return [question, correctAnswer];
 };
