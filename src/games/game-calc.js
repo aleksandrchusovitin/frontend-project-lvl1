@@ -13,7 +13,7 @@ const getCorrectAnswer = (operand1, operator, operand2) => {
     case '*':
       return operand1 * operand2;
     default:
-      throw new Error('Unknown operator!');
+      throw new Error(`Unknown operator: '${operator}'`);
   }
 };
 
