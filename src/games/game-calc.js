@@ -5,21 +5,16 @@ const rulesGame = 'What is the result of the expression?';
 
 const getRandomIndexArr = (arr) => Math.floor(Math.random() * arr.length);
 const getCorrectAnswer = (operand1, operator, operand2) => {
-  let correctAnswer;
   switch (operator) {
     case '+':
-      correctAnswer = operand1 + operand2;
-      break;
+      return operand1 + operand2;
     case '-':
-      correctAnswer = operand1 - operand2;
-      break;
+      return operand1 - operand2;
     case '*':
-      correctAnswer = operand1 * operand2;
-      break;
+      return operand1 * operand2;
     default:
-      break;
+      throw new Error('Unknown operator!');
   }
-  return correctAnswer;
 };
 
 const getPairQuestionCorrectAnswer = () => {
