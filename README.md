@@ -43,10 +43,10 @@ brain-progression
 [![asciicast](https://asciinema.org/a/niGejq55ElTig4LA48PcSxKaG.svg)](https://asciinema.org/a/niGejq55ElTig4LA48PcSxKaG)
 
 ### Gameplay brain-gcd
-[![asciicast](https://asciinema.org/a/KkmSQwcNz4B5XszacF5baswae.svg)](https://asciinema.org/a/KkmSQwcNz4B5XszacF5baswae)
+[![asciicast](https://asciinema.org/a/RYVgmyOHsUdVj9scEcoZyrCsq.svg)](https://asciinema.org/a/RYVgmyOHsUdVj9scEcoZyrCsq)
 
 ### Gameplay brain-progression
-[![asciicast](https://asciinema.org/a/cmUN3EtjofvH2kbwoadrcdRwu.svg)](https://asciinema.org/a/cmUN3EtjofvH2kbwoadrcdRwu)
+[![asciicast](https://asciinema.org/a/vbKqCBFaNuqV5IaJvj0gXLUb0.svg)](https://asciinema.org/a/vbKqCBFaNuqV5IaJvj0gXLUb0)
 
 ### Gameplay brain-prime
-[![asciicast](https://asciinema.org/a/XxNyZbAMeUYosIzg5hlu5vyzQ.svg)](https://asciinema.org/a/XxNyZbAMeUYosIzg5hlu5vyzQ)
+[![asciicast](https://asciinema.org/a/j1FEPnhP9T5wK6DJAkEhwt90X.svg)](https://asciinema.org/a/j1FEPnhP9T5wK6DJAkEhwt90X)
