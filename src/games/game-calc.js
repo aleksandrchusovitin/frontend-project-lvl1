@@ -17,7 +17,7 @@ const getCorrectAnswer = (operand1, operator, operand2) => {
   }
 };
 
-const getPairQuestionCorrectAnswer = () => {
+const getQuestionCorrectAnswer = () => {
   const operators = ['+', '-', '*'];
 
   const operand1 = getRandomNumber(1, 100);
@@ -31,4 +31,4 @@ const getPairQuestionCorrectAnswer = () => {
   return [question, correctAnswer];
 };
 
-export default () => startGameEngine(rulesGame, getPairQuestionCorrectAnswer);
+export default () => startGameEngine(rulesGame, getQuestionCorrectAnswer);

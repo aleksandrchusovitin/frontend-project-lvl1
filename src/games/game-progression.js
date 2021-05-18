@@ -22,7 +22,7 @@ const hideNumberInProgression = (progression, index) => {
   return hiddenProgression;
 };
 
-const getPairQuestionCorrectAnswer = () => {
+const getQuestionCorrectAnswer = () => {
   const lengthProgression = getRandomNumber(5, 15);
   const indexHiddenNumber = getRandomNumber(0, lengthProgression - 1);
   const startNumber = getRandomNumber(2, 50);
@@ -37,4 +37,4 @@ const getPairQuestionCorrectAnswer = () => {
   return [question, correctAnswer];
 };
 
-export default () => startGameEngine(rulesGame, getPairQuestionCorrectAnswer);
+export default () => startGameEngine(rulesGame, getQuestionCorrectAnswer);

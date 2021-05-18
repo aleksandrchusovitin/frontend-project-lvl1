@@ -10,7 +10,7 @@ const findGcd = (a, b) => {
   return findGcd(b, a % b);
 };
 
-const getPairQuestionCorrectAnswer = () => {
+const getQuestionCorrectAnswer = () => {
   const number1 = getRandomNumber(1, 100);
   const number2 = getRandomNumber(1, 100);
   const question = `${number1} ${number2}`;
@@ -20,4 +20,4 @@ const getPairQuestionCorrectAnswer = () => {
   return [question, correctAnswer];
 };
 
-export default () => startGameEngine(rulesGame, getPairQuestionCorrectAnswer);
+export default () => startGameEngine(rulesGame, getQuestionCorrectAnswer);
