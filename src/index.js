@@ -14,9 +14,8 @@ const startGameEngine = (rulesGame, getPairQuestionCorrectAnswer) => {
     console.log(`Question: ${question}`);
 
     const userAnswer = readlineSync.question('Your answer: ');
-    const resultStep = userAnswer === correctAnswer;
 
-    if (!resultStep) {
+    if (userAnswer !== correctAnswer) {
       console.log(`'${userAnswer}' is wrong answer ;(. Correct answer was '${correctAnswer}'.`);
       console.log(`Let's try again, ${userName}!`);
       return;
